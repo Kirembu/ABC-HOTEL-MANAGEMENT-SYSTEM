@@ -1,0 +1,640 @@
+[Root]
+Most Recent Package=ABC PACKAGE FINAL
+
+
+[Package|ABC PACKAGE|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\clown\25-08-2009\Kirembu Project 09\VB\EXE
+
+[Package|ABC PACKAGE|Configure DAO ISAMs]
+Applicable=No
+
+[Package|ABC PACKAGE|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|ABC PACKAGE|Files Found]
+
+[Package|ABC PACKAGE|Files Released]
+
+[Package|ABC PACKAGE|Missing Dependency Information]
+E:\HACKED\Code\User Controls\VisualMenuEx.ocx=
+E:\HACKED\Code\User Controls\XP.ocx=
+E:\Computer Science\controls\XP_ProBar.ocx=
+E:\Computer Science\controls\Candy.ocx=
+C:\Program Files\OCX\lvButton.ocx=
+E:\Computer Science\controls\prjXTab.ocx=
+C:\WINDOWS\system32\msstdfmt.dll=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+
+[Package|ABC PACKAGE|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\RICHTX32.OCX=
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\MSCOMCT2.OCX=
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|ABC PACKAGE|Files Added]
+
+[Package|ABC PACKAGE|Files Removed]
+
+[Package|ABC PACKAGE|Files In Project]
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\ABCHMIS.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+E:\Computer Science\controls\prjXTab.ocx=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\OCX\lvButton.ocx=Yes
+E:\Computer Science\controls\Candy.ocx=Yes
+E:\Computer Science\controls\XP_ProBar.ocx=Yes
+E:\HACKED\Code\User Controls\XP.ocx=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\MSMASK32.OCX=Yes
+E:\HACKED\Code\User Controls\VisualMenuEx.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|ABC PACKAGE|Configure Registry Files]
+Applicable=No
+
+[Package|ABC PACKAGE|Configure Remote Servers]
+Applicable=No
+
+[Package|ABC PACKAGE|Install Locations]
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\ABCHMIS.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+E:\Computer Science\controls\prjXTab.ocx=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\OCX\lvButton.ocx=$(WinSysPath)
+E:\Computer Science\controls\Candy.ocx=$(WinSysPath)
+E:\Computer Science\controls\XP_ProBar.ocx=$(WinSysPath)
+E:\HACKED\Code\User Controls\XP.ocx=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMASK32.OCX=$(WinSysPath)
+E:\HACKED\Code\User Controls\VisualMenuEx.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|ABC PACKAGE|Configure Shared Files]
+Applicable=Yes
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\ABCHMIS.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|ABC PACKAGE|Distribution]
+Type=single
+Size=
+Title=ABC HOTEL MANAGEMENT AND INFORMATION SYSTEM
+
+[Package|ABC PACKAGE|IconGroups]
+Group0=ABC HOTEL MIS
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|ABC PACKAGE|ABC HOTEL MIS]
+Icon1=ABCHMIS.exe
+Title1=ABC HOTEL MIS
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|ABC PACKAGE|Package]
+PackageFolder=E:\clown\25-08-2009\Kirembu Project 09\VB\EXE
+ProjectFolder=E:\clown\25-08-2009\Kirembu Project 09\VB\Projects
+ServerSideCab=
+File1=E:\clown\25-08-2009\Kirembu Project 09\VB\EXE\setup.exe
+File2=E:\clown\25-08-2009\Kirembu Project 09\VB\EXE\Setup.Lst
+File3=E:\clown\25-08-2009\Kirembu Project 09\VB\EXE\ABCHMIS.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|ABCHMIS PACKAGE|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\clown\25-08-2009\Kirembu Project 09\Package
+
+[Package|ABCHMIS PACKAGE|Configure DAO ISAMs]
+Applicable=No
+
+[Package|ABCHMIS PACKAGE|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|ABCHMIS PACKAGE|Files Found]
+
+[Package|ABCHMIS PACKAGE|Files Released]
+
+[Package|ABCHMIS PACKAGE|Missing Dependency Information]
+C:\WINDOWS\system32\VisualMenuEx.ocx=
+C:\WINDOWS\system32\XP.ocx=
+C:\WINDOWS\system32\XP_ProBar.ocx=
+C:\WINDOWS\system32\Candy.ocx=
+C:\WINDOWS\system32\lvButton.ocx=
+C:\WINDOWS\system32\prjXTab.ocx=
+C:\WINDOWS\system32\msstdfmt.dll=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+
+[Package|ABCHMIS PACKAGE|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\RICHTX32.OCX=
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\MSCOMCT2.OCX=
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|ABCHMIS PACKAGE|Files Added]
+e:\clown\25-08-2009\kirembu project 09\vb\projects\database\abcdb.mdb=
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\Text\Count.txt=
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\Images\noimg.gif=
+
+[Package|ABCHMIS PACKAGE|Files Removed]
+
+[Package|ABCHMIS PACKAGE|Files In Project]
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\ABCHMIS.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\MSMASK32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\DataBase\ABCdb.mdb=Yes
+C:\Program Files\ABCHMIS\OCX\prjXTab.ocx=Yes
+C:\Program Files\ABCHMIS\OCX\lvButton.ocx=Yes
+C:\Program Files\ABCHMIS\OCX\Candy.ocx=Yes
+C:\Program Files\ABCHMIS\OCX\XP_ProBar.ocx=Yes
+C:\Program Files\ABCHMIS\OCX\XP.ocx=Yes
+C:\Program Files\ABCHMIS\OCX\VisualMenuEx.ocx=Yes
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\Text\Count.txt=Yes
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\Images\noimg.gif=Yes
+
+[Package|ABCHMIS PACKAGE|Configure Registry Files]
+Applicable=No
+
+[Package|ABCHMIS PACKAGE|Configure Remote Servers]
+Applicable=No
+
+[Package|ABCHMIS PACKAGE|Install Locations]
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\ABCHMIS.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\prjXTab.ocx=$(AppPath)\OCX\
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\lvButton.ocx=$(AppPath)\OCX\
+C:\WINDOWS\system32\Candy.ocx=$(AppPath)\OCX\
+C:\WINDOWS\system32\XP_ProBar.ocx=$(AppPath)\OCX\
+C:\WINDOWS\system32\XP.ocx=$(AppPath)\OCX\
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\VisualMenuEx.ocx=$(AppPath)\OCX\
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\DataBase\ABCdb.mdb=$(AppPath)\DataBase\
+C:\Program Files\ABCHMIS\OCX\prjXTab.ocx=$(WinSysPath)
+C:\Program Files\ABCHMIS\OCX\lvButton.ocx=$(WinSysPath)
+C:\Program Files\ABCHMIS\OCX\Candy.ocx=$(WinSysPath)
+C:\Program Files\ABCHMIS\OCX\XP_ProBar.ocx=$(WinSysPath)
+C:\Program Files\ABCHMIS\OCX\XP.ocx=$(WinSysPath)
+C:\Program Files\ABCHMIS\OCX\VisualMenuEx.ocx=$(WinSysPath)
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\Text\Count.txt=$(AppPath)\Text\
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\Images\noimg.gif=$(AppPath)\Images\
+
+[Package|ABCHMIS PACKAGE|Configure Shared Files]
+Applicable=Yes
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\ABCHMIS.exe=No
+C:\WINDOWS\system32\prjXTab.ocx=No
+C:\WINDOWS\system32\lvButton.ocx=No
+C:\WINDOWS\system32\Candy.ocx=No
+C:\WINDOWS\system32\XP_ProBar.ocx=No
+C:\WINDOWS\system32\XP.ocx=No
+C:\WINDOWS\system32\VisualMenuEx.ocx=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\DataBase\ABCdb.mdb=No
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\Text\Count.txt=No
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\Images\noimg.gif=No
+
+[Package|ABCHMIS PACKAGE|Distribution]
+Type=single
+Size=
+Title=ABC HOTEL MANAGEMENT AND INFORMATION SYSTEM 
+
+[Package|ABCHMIS PACKAGE|Package]
+PackageFolder=E:\clown\25-08-2009\Kirembu Project 09\Package
+ProjectFolder=E:\clown\25-08-2009\Kirembu Project 09\VB\Projects
+ServerSideCab=
+File1=E:\clown\25-08-2009\Kirembu Project 09\Package\setup.exe
+File2=E:\clown\25-08-2009\Kirembu Project 09\Package\Setup.Lst
+File3=E:\clown\25-08-2009\Kirembu Project 09\Package\ABCHMIS.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|ABCHMIS PACKAGE|IconGroups]
+Group0=ABC Hotel Management and Information System
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|ABCHMIS PACKAGE|ABC Hotel Management and Information System]
+Icon1=ABCHMIS.exe
+Title1=ABCHMIS
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\clown\25-08-2009\Kirembu Project 09
+
+[Package|Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Setup Package 1|Files Found]
+
+[Package|Setup Package 1|Files Released]
+
+[Package|Setup Package 1|Missing Dependency Information]
+
+[Package|Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\RICHTX32.OCX=
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\MSCOMCT2.OCX=
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|Setup Package 1|Files Added]
+
+[Package|Setup Package 1|Files Removed]
+c:\windows\system32\comdlg32.ocx=
+
+[Package|Setup Package 1|Files In Project]
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\ABCHMIS.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=No
+C:\WINDOWS\system32\prjXTab.ocx=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\lvButton.ocx=Yes
+C:\WINDOWS\system32\Candy.ocx=Yes
+C:\WINDOWS\system32\XP_ProBar.ocx=Yes
+C:\WINDOWS\system32\XP.ocx=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\MSMASK32.OCX=Yes
+C:\WINDOWS\system32\VisualMenuEx.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Setup Package 1|Install Locations]
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\ABCHMIS.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\prjXTab.ocx=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\lvButton.ocx=$(WinSysPath)
+C:\WINDOWS\system32\Candy.ocx=$(WinSysPath)
+C:\WINDOWS\system32\XP_ProBar.ocx=$(WinSysPath)
+C:\WINDOWS\system32\XP.ocx=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\VisualMenuEx.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Setup Package 1|Configure Shared Files]
+Applicable=Yes
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\ABCHMIS.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Setup Package 1|Distribution]
+Type=single
+Size=
+Title=ABC HOTEL MANAGEMENT AND INFORMATION SYSTEM
+
+[Package|Setup Package 1|IconGroups]
+Group0=ABC HOTEL MANAGEMENT AND INFORMATION SYSTEM
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Setup Package 1|ABC HOTEL MANAGEMENT AND INFORMATION SYSTEM]
+Icon1=ABCHMIS.exe
+Title1=ABCHMIS
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Setup Package 1|Package]
+PackageFolder=E:\clown\25-08-2009\Kirembu Project 09
+ProjectFolder=E:\clown\25-08-2009\Kirembu Project 09\VB\Projects
+ServerSideCab=
+File1=E:\clown\25-08-2009\Kirembu Project 09\setup.exe
+File2=E:\clown\25-08-2009\Kirembu Project 09\Setup.Lst
+File3=E:\clown\25-08-2009\Kirembu Project 09\ABCHMIS.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|ABC PACKAGE FINAL|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\clown\25-08-2009\Kirembu Project 09\Package
+
+[Package|ABC PACKAGE FINAL|Configure DAO ISAMs]
+Applicable=No
+
+[Package|ABC PACKAGE FINAL|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|ABC PACKAGE FINAL|Files Found]
+
+[Package|ABC PACKAGE FINAL|Files Released]
+
+[Package|ABC PACKAGE FINAL|Missing Dependency Information]
+E:\HACKED\Code\User Controls\VisualMenuEx.ocx=
+E:\HACKED\Code\User Controls\XP.ocx=
+E:\Computer Science\controls\XP_ProBar.ocx=
+E:\Computer Science\controls\Candy.ocx=
+C:\Program Files\OCX\lvButton.ocx=
+E:\Computer Science\controls\prjXTab.ocx=
+C:\WINDOWS\system32\msstdfmt.dll=
+C:\Program Files\Common Files\System\ado\msado20.tlb=
+C:\WINDOWS\system32\VisualMenuEx.ocx=
+C:\WINDOWS\system32\XP.ocx=
+C:\WINDOWS\system32\XP_ProBar.ocx=
+C:\WINDOWS\system32\Candy.ocx=
+C:\WINDOWS\system32\lvButton.ocx=
+C:\WINDOWS\system32\prjXTab.ocx=
+
+[Package|ABC PACKAGE FINAL|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\RICHTX32.OCX=
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\MSCOMCT2.OCX=
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|ABC PACKAGE FINAL|Files Added]
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\Text\Count.txt=
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\DataBase\ABCdb.mdb=
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\Images\noimg.gif=
+
+[Package|ABC PACKAGE FINAL|Files Removed]
+
+[Package|ABC PACKAGE FINAL|Files In Project]
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\ABCHMIS.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado20.tlb=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\WINDOWS\system32\MSMASK32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\system32\prjXTab.ocx=Yes
+C:\WINDOWS\system32\lvButton.ocx=Yes
+C:\WINDOWS\system32\Candy.ocx=Yes
+C:\WINDOWS\system32\XP_ProBar.ocx=Yes
+C:\WINDOWS\system32\XP.ocx=Yes
+C:\WINDOWS\system32\VisualMenuEx.ocx=Yes
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\Text\Count.txt=Yes
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\DataBase\ABCdb.mdb=Yes
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\Images\noimg.gif=Yes
+
+[Package|ABC PACKAGE FINAL|Configure Registry Files]
+Applicable=No
+
+[Package|ABC PACKAGE FINAL|Configure Remote Servers]
+Applicable=No
+
+[Package|ABC PACKAGE FINAL|Install Locations]
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\ABCHMIS.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\Program Files\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+E:\Computer Science\controls\prjXTab.ocx=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\OCX\lvButton.ocx=$(WinSysPath)
+E:\Computer Science\controls\Candy.ocx=$(WinSysPath)
+E:\Computer Science\controls\XP_ProBar.ocx=$(WinSysPath)
+E:\HACKED\Code\User Controls\XP.ocx=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMASK32.OCX=$(WinSysPath)
+E:\HACKED\Code\User Controls\VisualMenuEx.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\system32\prjXTab.ocx=$(AppPath)\OCX\
+C:\WINDOWS\system32\lvButton.ocx=$(AppPath)\OCX\
+C:\WINDOWS\system32\Candy.ocx=$(AppPath)\OCX\
+C:\WINDOWS\system32\XP_ProBar.ocx=$(AppPath)\OCX\
+C:\WINDOWS\system32\XP.ocx=$(AppPath)\OCX\
+C:\WINDOWS\system32\VisualMenuEx.ocx=$(AppPath)\OCX\
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\Text\Count.txt=$(AppPath)\Text\
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\DataBase\ABCdb.mdb=$(AppPath)\DataBase\
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\Images\noimg.gif=$(AppPath)\Images\
+
+[Package|ABC PACKAGE FINAL|Configure Shared Files]
+Applicable=Yes
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\ABCHMIS.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\Text\Count.txt=No
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\DataBase\ABCdb.mdb=No
+E:\clown\25-08-2009\Kirembu Project 09\VB\Projects\Images\noimg.gif=No
+C:\WINDOWS\system32\prjXTab.ocx=Yes
+C:\WINDOWS\system32\lvButton.ocx=Yes
+C:\WINDOWS\system32\Candy.ocx=Yes
+C:\WINDOWS\system32\XP_ProBar.ocx=Yes
+C:\WINDOWS\system32\XP.ocx=Yes
+C:\WINDOWS\system32\VisualMenuEx.ocx=Yes
+
+[Package|ABC PACKAGE FINAL|Distribution]
+Type=single
+Size=
+Title=ABC HOTEL MANAGEMENT AND INFORMATION SYSTEM
+
+[Package|ABC PACKAGE FINAL|IconGroups]
+Group0=ABC HOTEL MIS
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|ABC PACKAGE FINAL|ABC HOTEL MIS]
+Icon1=ABCHMIS.exe
+Title1=ABC HOTEL MIS
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|ABC PACKAGE FINAL|Package]
+PackageFolder=E:\clown\25-08-2009\Kirembu Project 09\Package
+ProjectFolder=E:\clown\25-08-2009\Kirembu Project 09\VB\Projects
+ServerSideCab=
+File1=E:\clown\25-08-2009\Kirembu Project 09\Package\setup.exe
+File2=E:\clown\25-08-2009\Kirembu Project 09\Package\Setup.Lst
+File3=E:\clown\25-08-2009\Kirembu Project 09\Package\ABCHMIS.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

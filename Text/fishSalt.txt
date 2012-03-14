@@ -1,0 +1,158 @@
+Dim dbpath As String
+
+Dim cn As New ADODB.Connection
+dbpath = App.Path & "\" + "ABCdb.mdb"
+
+cn.Open "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + dbpath + ";Persist Security Info=False"
+
+rec.Open "SELECT * FROM tbl_Users", cn, adOpenStatic, adLockOptimistic
+With rec
+    .Fields("LoginName").Value = Me.txtLoginName.Text
+   
+    End With
+cn.Close
+
+
+
+================================================================
+
+' strItmX(2) = str(adoAddUser.Recordset.RecordCount + 1)
+' strItmX(8) = Me.txtAddress.Text
+' strItmX(6) = Me.txtContactNumber.Text
+'  strItmX(1) = Me.txtFirstName.Text
+' strItmX(0) = Me.txtLoginName.Text
+' strItmX(2) = Me.txtUserID.Text
+' strItmX(10) = Me.txtPassword2.Text
+' strItmX(9) = Me.cboUserType.List(Me.cboUserType.ListIndex)
+' Me.adoAddUser.Recordset.AddNew
+'    adoAddUser.Recordset.Fields("LoginName").Value = strItmX(0)
+'    adoAddUser.Recordset.Fields("UserName").Value = strItmX(1)
+'    adoAddUser.Recordset.Fields("User_ID").Value = "strItmX(2)"
+'    adoAddUser.Recordset.Fields("ContactNo").Value = strItmX(6)
+'    adoAddUser.Recordset.Fields("Createdby").Value = "Administrator"
+'    adoAddUser.Recordset.Fields("Address").Value = strItmX(8)
+'    adoAddUser.Recordset.Fields("UserType").Value = strItmX(9)
+'    adoAddUser.Recordset.Fields("Password").Value = strItmX(10)
+' Me.adoAddUser.Recordset.Update
+'
+
+txtPassword1.Text = ""
+'End If
+
+=====================================================================
+
+' For x = 0 To Me.cboUserType.ListCount
+' If LCase(Me.cboUserType.List(x)) = LCase(strItmX(9)) Then
+' Me.cboUserType.ListIndex = x
+' End If
+' Next x
+
+======================================================================
+
+Private Sub cmdSave_Click()
+
+If Check(Me) <> "" Then
+res = MsgBox("Missing Information:" + vbCr + Check(Me) + vbCr + "Please make sure you have completed entering the records", vbInformation, "Guests")
+Else
+mdlFunctions.main
+
+rs.AddNew
+ 
+With rs
+
+.Fields("VID").Value = Val(.RecordCount) + 1
+.Fields("VReg").Value = cboTitle.Text
+.Fields("VType").Value = Me.txtFirstName.Text
+.Fields("Second_Name").Value = Me.txtSecondName.Text
+.Fields("VMileage").Value = Me.txtOtherName.Text
+.Fields("CreatedBy").Value = optSex(Index).Caption
+
+.Update
+End With
+cmdNew.Caption = "Ad&d"
+End If
+End Sub
+
+=============================================================================
+
+Do Until adoUsers.Recordset.EOF = True
+strItmX(0) = adoUsers.Recordset.Fields("LoginName").Value
+strItmX(1) = adoUsers.Recordset.Fields("UserName").Value
+strItmX(2) = adoUsers.Recordset.Fields("User_ID").Value
+strItmX(4) = adoUsers.Recordset.Fields("CreationDate").Value
+strItmX(5) = adoUsers.Recordset.Fields("CreationTime").Value
+strItmX(6) = adoUsers.Recordset.Fields("ContactNo").Value
+strItmX(7) = adoUsers.Recordset.Fields("Createdby").Value
+strItmX(8) = adoUsers.Recordset.Fields("Address").Value
+strItmX(9) = adoUsers.Recordset.Fields("UserType").Value
+strItmX(10) = adoUsers.Recordset.Fields("Password").Value
+
+================================================================================
+With lvwUsers
+Set itmX = lvwUsers.ListItems.Add(X + 1, , strItmX(0), ico)
+itmX.SubItems(2) = strItmX(1)
+itmX.SubItems(3) = strItmX(2)
+itmX.SubItems(4) = strItmX(4)
+itmX.SubItems(5) = strItmX(5)
+itmX.SubItems(6) = strItmX(6)
+itmX.SubItems(7) = strItmX(7)
+itmX.SubItems(8) = strItmX(8)
+ adoUsers.Recordset.MoveNext
+ End With
+
+Loop
+adoUsers.Recordset.MoveFirst
+
+=============================================================================
+
+ If Not lvwGuestInfo.ListItems.Count > 0 Then
+    MsgBox "No record seleceted", vbExclamation
+    Exit Sub
+  End If
+  Load frmGuest
+  pubGuestID = lvwGuestInfo.ListItems(lvwGuestInfo.SelectedItem.Index).ListSubItems(1).Text
+  pubsql = "SELECT * FROM tbl_Guest WHERE Guest_ID ='" & pubGuestID & "'"
+mdlData.DataBaseToForm (pubsql)
+If frmGuest.Visible = False Then
+frmGuest.Show
+Else
+Unload frmGuestView
+End If
+ frmGuest.frmfill
+
+==========================================================================
+
+Dim mUserType As Boolean
+   Select Case Trim(Me.cboCreteria.Text)
+          Case "User ID"
+                pubsql = "SELECT * FROM tbl_Users WHERE User_ID >='" & Trim(Me.txtValue.Text) & "'"
+          Case "User Name"
+                pubsql = "SELECT * FROM tbl_Users WHERE UserName >= '" & Trim(Me.txtValue.Text) & "'"
+          Case "User Type"
+                pubsql = "SELECT * FROM tbl_Users WHERE UserType >= '" & Trim(Me.txtValue.Text) & "'"
+          Case Else
+                pubsql = "SELECT * FROM tbl_Users"
+   End Select
+   Display pubsql
+
+=====================================================================================
+
+Public Type GuestInfo
+Guest_ID As Integer
+Title As String
+First_Name As String
+Second_Name As String
+Other_Name As String
+Sex As String
+Citizen As String
+Boarding As String
+Passport_No As String
+National_ID As String
+Address As String
+Phone As String
+Country As String
+dob As Date
+age As Integer
+Boarding As String
+RoomService As String
+End Type
